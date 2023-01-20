@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://localhost:3050/css/style.css">
+    <title>Login Panel</title>
+</head>
+<body>
+    <div>
+        <form class="container" action="/login" method="post">
+            <label class="lbl" style="display: flex; justify-content: center;">Login Ekranı</label><br>
+
+            <label class="lbl">Kullanıcı Adı</label><br>
+            <input type="text" name="name" class="txt"><br>
+            <label class="lbl">Şifrenizi Giriniz</label><br>
+            <input type="text" name="password" class="txt"><br>
+            <div class="giris">
+                <input type="submit" class="btn" name="gonder" value="Giriş Yap">
+                <input type="button" value="Kayıt ol" class="btn">
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>

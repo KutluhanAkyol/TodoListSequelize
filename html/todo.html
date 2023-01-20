@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://localhost:3050/css/todo.css">
+    <title>To Do List</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="banner">
+            <p id="welcome"></p>
+            <input type="text" id="txtBox" class="txtBox">
+        </div>
+        <input type="button" class="btn" id="add" value="Add">
+        <form action="/todo" method="post">
+            <div class="textArea" id="textArea">
+
+            </div>
+            <input type="submit" value="Saves" class="btn" id="saveBtn">
+        </form>
+        <form action="/cikis" method="post">
+            <input type="submit" class="btn" style="float: right; margin-top: 5%;" value="Çıkış Yap">
+        </form>
+        <script src="/js/todo.js"></script>
+    </div>
+
+
+
+    <!-- <div  class="container">
+        <div class="banner">
+            <p id="welcome"></p>
+        <input type="text" id="txtBox"  class="txtBox"> </div>
+        
+        <input type="button" class="btn" id="add" value="Add">
+    <form action="/todo" method="pos">
+       <div class="textArea" id="textArea">
+
+       </div>
+        <input type="submit" class="btn" id="saveBtn" value="Save">
+    </form>
+        <script src="/js/todo.js"></script>
+    </div> -->
+    
+</body>
+</html>
